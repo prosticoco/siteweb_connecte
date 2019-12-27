@@ -9,8 +9,20 @@ html, body{
 	width: 100vw;
 }
 
+.title{
+	position: relative;
+	margin:0px;
+	top:35%;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 80px;
+	font-weight: bold;
+	color: rgb(87, 87, 87);
+	text-align: center;
+}
+
 .home{
-	background-color: blue;
+	background-image: url(img/bg_t2.jpg);
+	background-size: cover;
 }
 
 .home-content{
@@ -19,8 +31,6 @@ html, body{
 	margin: auto;
 	width: 60%;
 	height: 50%;
-
-	background-color: green;
 }
 
 .nav{
@@ -28,25 +38,49 @@ html, body{
 	height: 15%;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-	background-color: red;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.nav a{
+	color: rgb(237, 237, 237);
+	text-decoration: none;
 }
 
 .nav-item{
-	line-height: 400%;
+	cursor: pointer;
+	line-height: 7.5vh;
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 18px;
-	font-weight: bold:;
+	font-weight: bold
+}
+
+.nav-item:hover{
+	background-color: rgba(237, 237, 237, 0.2);
+	transition: 1s;
+}
+
+.link{
+	position: relative;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
 }
 
 .logo-banner{
 	width: 100%;
 	height: 85%;
-
-	background-color: whitesmoke;
-
+	background-color: rgba(237, 237, 237, 0.2);
 }
 
-.p2{
-	background-color: yellow;
+.aboutus{
+	background-color: rgb(245, 245, 245);
+}
+.events{
+	background-color: rgb(245, 245, 245);
+}
+.infos{
+	background-color: rgb(245, 245, 245);
+}
+.contact{
+	background-color: rgb(245, 245, 245);
 }
