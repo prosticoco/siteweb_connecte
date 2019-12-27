@@ -4,7 +4,6 @@ html, body {
 	width: 100%;
 }
 
-
 .container{
 	max-width: 100%;
 	margin: 0px;
@@ -71,10 +70,21 @@ html, body {
 	transition: 1s;
 }
 
+.logo-icon{
+	height: 7.5vh;
+	background-image: url(img/connecte_logo.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: auto 9vh;
+}
+
 .logo-banner{
 	width: 100%;
 	height: 85%;
-	background-color: rgba(237, 237, 237, 0.2);
+	background-image: url(img/connecte_logo.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	/*background-color: rgba(237, 237, 237, 0.2);*/
 }
 
 .aboutus{
